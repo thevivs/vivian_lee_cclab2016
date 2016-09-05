@@ -1,0 +1,24 @@
+#list_container{
+	list-style-type: none;
+	position: relative;
+	text-align: center;
+/*	opacity: 0;*/
+}
+
+ul{
+	padding: 0px;
+}
+
+#groceries{
+	font-family: 'Sigmar One', cursive;
+	position: relative;
+	font-size: 60px;
+	text-align: center;
+}
+
+#list_container{
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 40px;
+}
+
+
