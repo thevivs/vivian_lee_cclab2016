@@ -66,6 +66,7 @@ document.addEventListener("DOMContentLoaded", function() {
 	// listDiv[0].style.transform = "opacity("+ seconds+1")";
 	// listDiv[0].style.WebkitTransform = "opacity("+ seconds+1")";
 	
+	function showGroceries() { //here is the function we want to call
 
 	eggs.style.opacity = 1;
 	milk.style.opacity = 1;
@@ -74,6 +75,8 @@ document.addEventListener("DOMContentLoaded", function() {
 	pasta.style.opacity = 1;
 	broccoli.style.opacity = 1;
 	}, 2000);
+
+}
 
 
 
