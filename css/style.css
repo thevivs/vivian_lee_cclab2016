@@ -1,7 +1,9 @@
-#list_container{
+.list_container{
 	list-style-type: none;
 	position: relative;
 	text-align: center;
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 40px;
 /*	opacity: 0;*/
 }
 
@@ -14,11 +16,6 @@ ul{
 	position: relative;
 	font-size: 60px;
 	text-align: center;
-}
-
-#list_container{
-	font-family: 'Shadows Into Light', cursive;
-	font-size: 40px;
 }
 
 

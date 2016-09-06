@@ -5,7 +5,8 @@
 
 
 //STILL WANT THIS DO NOT DELETE
-// document.getElementById("header_container").addEventListener ("click" = function(event)) {
+// document.addEventListener("click", function()){
+// 	getElementById("header_container"). 
 // 	console.log("clicked");
 
 // 	var listDiv = document.getElementById("list_container");
@@ -22,6 +23,17 @@
 // }
 
 
+// var headerContainer = document.getElementsByID("header_container");
+// var listContainer = document.getElementsByClassName("list_container");
+
+// document.getElementById("headerContainer").onclick = function (){
+// 	var listContainer = document.getElementById("container");
+// 		listContainer.style.opacity = 1;
+
+// 	console.log ("pressed");
+// }
+
+
 
 //the idea is that when you first start off, the list will be transparent.
 //After you click on groceries, the list will appear
@@ -29,7 +41,7 @@
 
 document.addEventListener("DOMContentLoaded", function() {
 	var seconds = 0;
-	var listArray = document.getElementById("list_container");
+	var listArray = document.getElementsByClassName("list_container");
 	var temp;
 
 
@@ -64,11 +76,23 @@ document.addEventListener("DOMContentLoaded", function() {
 	}, 2000);
 
 
+
 	temp = listArray[0];
 	listArray.shift();
 	listArray.push(temp);
 
 });
+
+
+// var i;
+// var listArray = [];
+
+// function playListContainer(){
+// 	for ( var i = 0; i > list_container.length; i ++)
+		
+// }
+
+
 
 
 
