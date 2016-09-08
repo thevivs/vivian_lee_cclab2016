@@ -14,7 +14,7 @@
 // 	listDiv.style.opacity = 0;
 
 // 		clickFunction(function(){
-		
+
 
 // 			listDiv.style.opacity = 1;
 
@@ -39,64 +39,70 @@
 //After you click on groceries, the list will appear
 //and then they start to animate
 
+
+var eggs = document.getElementById("eggs");
+var milk = document.getElementById("milk");
+var bread = document.getElementById("bread");
+var apples = document.getElementById("apples");
+var pasta = document.getElementById("pasta");
+var broccoli = document.getElementById("broccoli");
+var listArray = document.getElementById("container");
+
+
+var array = [eggs, milk, bread, apples, pasta, broccoli];
+
+
 document.addEventListener("DOMContentLoaded", function() {
-	var seconds = 0;
-	var listArray = document.getElementsByClassName("list_container");
-	var temp;
+    // var seconds = 0;
+    // var temp;
 
+    // listArray.style.opacity = 0;
 
-	var eggs = document.getElementById("eggs");
-	var milk = document.getElementById("milk");
-	var bread = document.getElementById("bread");
-	var apples = document.getElementById("apples");
-	var pasta = document.getElementById("pasta");
-	var broccoli = document.getElementById("broccoli");
+    for (var i = 0; i < array.length; i++) {
+        array[i].style.opacity = 0;
+    }
 
-	eggs.style.opacity = 0;
-	milk.style.opacity = 0;
-	bread.style.opacity = 0;
-	apples.style.opacity = 0;
-	pasta.style.opacity = 0;
-	broccoli.style.opacity = 0;
-
-	setInterval(function(){
-		seconds += 1;
-		console.log(seconds);
-
-	// listDiv[0].style.transform = "opacity("+ seconds+1")";
-	// listDiv[0].style.WebkitTransform = "opacity("+ seconds+1")";
-	
-	function showGroceries() { //here is the function we want to call
-
-	eggs.style.opacity = 1;
-	milk.style.opacity = 1;
-	bread.style.opacity = 1;
-	apples.style.opacity = 1;
-	pasta.style.opacity = 1;
-	broccoli.style.opacity = 1;
-	}, 2000);
-
-}
-
-
-
-	temp = listArray[0];
-	listArray.shift();
-	listArray.push(temp);
+    // 	eggs.style.opacity = 0;
+    // 	milk.style.opacity = 0;
+    // 	bread.style.opacity = 0;
+    // 	apples.style.opacity = 0;
+    // 	pasta.style.opacity = 0;
+    // 	broccoli.style.opacity = 0;
 
 });
 
 
-// var i;
-// var listArray = [];
+function showGroceries() { //here is the function we want to call
 
-// function playListContainer(){
-// 	for ( var i = 0; i > list_container.length; i ++)
-		
-// }
+    console.log("show groceries running");
+
+    // listArray.style.opacity = 1;
 
 
+    // array.style.opacity = 1;
 
+
+    for (var i = 0; i < array.length; i++) {
+        array[i].style.opacity = 1;
+    };
+
+}
+
+// eggs.style.opacity = 1;
+// milk.style.opacity = 1;
+// bread.style.opacity = 1;
+// apples.style.opacity = 1;
+// pasta.style.opacity = 1;
+// broccoli.style.opacity = 1;
+
+
+function disappear(element) { //here is the function we want to call
+
+	element.style.opacity = 0.1;
+    // console.log("show groceries running");
+
+
+}
 
 
 
