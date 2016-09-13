@@ -1,0 +1,41 @@
+#title_div{
+	margin-top: 50px;
+}
+
+#punch{
+	font-family: 'Chango', cursive;
+	text-align: center;
+	margin: -15px;
+}
+
+#times_hit{
+	width: 240px;
+	top: 50vh;
+	left: 50vw;
+	margin: auto;
+	margin-top: 50px;
+
+
+}
+
+#feel_good{
+	width: 500px;
+	top: 50vh;
+	left: 50vw;
+	margin: auto;
+	margin-top: 250px;
+
+}
+
+h2{
+	font-family: 'Indie Flower', cursive;
+	position: relative; 
+	width: 500px;
+	text-align: center;
+	margin: auto;
+}
+
+h4{
+	font-family: 'Indie Flower', cursive;
+	text-align: center;
+}
