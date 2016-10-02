@@ -107,6 +107,32 @@ body{
 
 }
 
+#panelOne{
+	position: relative;
+	float: left;
+	vertical-align: top;
+
+}
+
+#panelTwo{
+	position: relative;
+	float: right;
+	vertical-align: top;
+
+}
+
+#panelThree{
+	position: relative;
+	float: left;
+	vertical-align: bottom;
+}
+
+#panelFour{
+	position: relative;
+	float: right;
+	vertical-align: bottom;
+}
+
 /*------------------------------------------------------------------------*/
 
 .search{
@@ -128,14 +154,33 @@ body{
 }
 
 
-.comicPanel img{
+#panelOne img{
 
 	position: relative;
 	width: 285px;
 	height: 150px;
 }
 
+#panelTwo img{
 
+	position: relative;
+	width: 285px;
+	height: 150px;
+}
+
+#panelThree img{
+
+	position: relative;
+	width: 285px;
+	height: 150px;
+}
+
+#panelFour img{
+
+	position: relative;
+	width: 285px;
+	height: 150px;
+}
 
 
 

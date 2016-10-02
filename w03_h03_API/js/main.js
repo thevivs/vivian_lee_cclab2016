@@ -53,6 +53,7 @@ $(document).ready(function() {
 
 //i.e fuction button one --> loadGifOne --> panelOne
 
+
 var init = function() {
 
     console.log("gif?");
@@ -64,25 +65,21 @@ var init = function() {
 
     $('#buttonOne').click(function(e) {
         e.preventDefault();
-        setGifOne();
+        
         console.log($('#boxOne').val());
+        // query =  ($('#boxOne').val());
+
+        getGifOne($('#boxOne').val());
     });
 
 };
 
-var setGifOne = function() {
-    gifOne = $('#buttonOne').val();
-
-
-    getGifOne();
-
-};
 
 
 var getGifOne = function(query) {
 
     var giphyUrl = "http://api.giphy.com/v1/gifs/search?q=" + query + "&api_key=dc6zaTOxFJmzC";
-
+    console.log(giphyUrl);
     $.ajax({
         url: giphyUrl,
         data: {
@@ -108,7 +105,7 @@ var getGifOne = function(query) {
 //need to set 4 different submits that corresponds to each of the four panels
 //loadGifOne is a function in wich it will grab query
 
-var loadGifOne = function(url) {
+var loadGifOne(url) {
 
     $('.comicPanel').append('<img src="' + url + '">');
 
