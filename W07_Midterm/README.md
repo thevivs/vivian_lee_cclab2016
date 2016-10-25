@@ -3,6 +3,7 @@
 ###Don't Litter, Spank Machine
 
 https://vimeo.com/188495919
+
 https://vimeo.com/188907005
 
 *Don't Litter, Spank Machine* is a speculative design piece. It lives in a world plagued by an uncontrollable waste and littering problem leaving the government with no alternative solutions than to assign each of its residents with said machine. If the machine detects its owner littering, it will punish its owner by spanking their butt. To combat this problem, the city will assign a *Don't Litter, Spank Machine* to each of its residents starting from the age they are able to produce waste. The reason that the machine spanks is that spanking is a universal form of punishment for all children. It does not matter what country the individual is from, spanking will always be recognized as punishment for bad behavior. By subjecting perpetrator to an embarrassing form of punishment in public, the government is hopeful that they will stop littering.
