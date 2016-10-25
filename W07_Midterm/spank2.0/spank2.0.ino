@@ -3,7 +3,7 @@
 Servo myServo;
 #define servoPin 9
 
-int pos = 75;
+//int pos = 75;
 #define trigPin 5
 #define echoPin 4
 
@@ -30,11 +30,11 @@ void loop() {
 
   if (distance < 30) {  // This is where the LED On/Off happens
     digitalWrite(servoPin, HIGH); // When the Red condition is met, the Green LED should turn off
-    myServo.write(125);
+    myServo.write(110);
   }
   else {
     digitalWrite(servoPin, LOW);
-    myServo.write(pos);
+    myServo.write(75);
   }
 
   delay(500);
