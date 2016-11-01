@@ -1,0 +1,3 @@
+##Week10 Homework
+
+In this homework assignment, I first created a circle class, in which the array of circles start at a random width and height on the screen. The array five circles then travel at a random speed of 0 to 5 on either the x or y axis. Each circle drawn will be of a random color with a radius of 10. I've also created a bounding box, so that whenever the circles would reach the edge of the screen, they would bounce back in the opposite direction. When the screen fills up or when you are satisfied with the circles drawn on the screen, you just click the mouse left key, the screen will clear.
